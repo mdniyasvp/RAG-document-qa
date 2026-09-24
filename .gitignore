@@ -1,0 +1,11 @@
+.venv
+__pycache__/
+*.pyc
+
+.env
+
+data/chroma/
+models/
+
+.ipynd_checkpoint/
+pytest_cache/
