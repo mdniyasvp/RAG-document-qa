@@ -11,7 +11,7 @@ __pycache__/
 # RAG generated data
 data/chroma/
 
-# Local documents
+# Local PDF documents
 data/documents/*.pdf
 
 # Models
