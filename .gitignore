@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+
+.env
+
+data/chroma/
+models/
+data/documents/*.pdf
+
+.ipynb_checkpoints/
+
+.pytest_cache/
