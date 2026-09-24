@@ -4,8 +4,10 @@ __pycache__/
 
 .env
 
+data/documents/*
 data/chroma/
 models/
+
 
 .ipynd_checkpoint/
 pytest_cache/
