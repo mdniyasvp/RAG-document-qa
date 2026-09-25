@@ -13,6 +13,7 @@ class Retriever:
         query: str,
         top_k: int = 3,
         max_distance: float | None = None,
+        metadata_filter: dict | None = None,
     ):
 
         query_embedding = self.embedding_model.encode(
@@ -22,6 +23,7 @@ class Retriever:
         results = self.vector_store.search(
             query_embedding=query_embedding,
             top_k=top_k,
+            where=metadata_filter,
         )
 
         if max_distance is None:

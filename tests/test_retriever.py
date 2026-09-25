@@ -8,6 +8,9 @@ results = retriever.retrieve(
     query= query,
     top_k=4,
     max_distance= 1.4,
+    metadata_filter={
+        "document": "Company-Policy-and-Procedure"
+    },
 )
 print("\n QUERY:")
 print(query)
