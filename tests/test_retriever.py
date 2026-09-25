@@ -1,10 +1,13 @@
 from src.retriever import Retriever
 
 retriever = Retriever()
+#query = "names of peoples who are inthe advisory board?"
 query = "What is the annual leave policy?"
+#query = "What is the capital of japapn?"
 results = retriever.retrieve(
     query= query,
-    top_k=3,
+    top_k=4,
+    max_distance= 1.4,
 )
 print("\n QUERY:")
 print(query)
