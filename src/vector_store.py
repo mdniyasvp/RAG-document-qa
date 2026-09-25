@@ -32,6 +32,8 @@ class VectorStore:
         top_k: int = 3,
         where: dict | None = None,
     ):
+
+
         return self.collection.query(
             query_embeddings=[query_embedding.tolist()],
             n_results=top_k,

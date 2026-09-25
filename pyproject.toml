@@ -1,11 +1,12 @@
 [project]
 name = "rag-document-qa"
 version = "0.1.0"
-description = "Add your description here"
+description = "A document question-answering RAG application"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "chromadb>=1.5.9",
+    "langchain-chroma>=1.1.0",
     "pypdf>=6.19.0",
     "sentence-transformers>=6.1.0",
 ]
