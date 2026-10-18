@@ -22,3 +22,19 @@ models/
 
 # Testing
 .pytest_cache/
+# Secrets and local configuration
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python tooling
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local logs and OS files
+*.log
+.DS_Store
+Thumbs.db

@@ -16,7 +16,6 @@ print("\n QUERY:")
 print(query)
 print("\nRESULTS:")
 print("Original query:", query)
-print("Rewritten query:", rewritten_query)
 for i, document in enumerate(results["documents"][0]):
 
     print(f"\n--- Result {i + 1} ---")

@@ -10,3 +10,8 @@ dependencies = [
     "pypdf>=6.19.0",
     "sentence-transformers>=6.1.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
